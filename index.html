@@ -11,11 +11,10 @@
 <body class="d-flex flex-column justify-content-around" style="min-height: 100vh;">
     <section class="container">
         <div class="row">
-            <div class="col-12 p-3" style="border: 1px solid black; border-radius: 10px;">
-                <p id="greeting"></p>
-                <p>Сегодня: <span id="today"></span></p>
-                <p>Текущее время: <span id="nowTime"></span></p>
-                <p>До нового года осталось: <span id="newYearLeft"></span> дней</p>
+            <div class="col-12 p-3">
+                <label class="form-label" for="input">Введите текст</label>
+                <input type="text" class="form-control mb-3" value="" id="input" placeholder="введите текст">
+                <p class="p-3" id="output" style="border: 1px solid black; border-radius: 10px;">&nbsp;</p>
             </div>
         </div>
         </section>
